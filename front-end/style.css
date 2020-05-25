@@ -1,0 +1,57 @@
+body{
+    background-color: #aab1bd;
+}
+
+.form-head{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.form-fields{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+form{
+    padding: 2rem;
+}
+
+label{
+    margin: 1.2rem;
+}
+
+#task-list{
+    border: solid black 2px;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.sort{
+    float: right;
+    padding: 10px;
+    margin: 1.2rem;
+}
+
+.sort-header{
+    color: black;
+    font-size: 30px;
+}
+
+
+#add{
+    margin-left: 2rem;
+}
+
+.task-header{
+    background-color: honeydew;
+    width: fit-content;
+    padding: 1.2rem;
+}
+
+ul li{
+    padding: 1.2rem;
+}
+
+ul{
+    list-style: none;
+}
