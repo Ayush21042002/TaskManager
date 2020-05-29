@@ -4,8 +4,13 @@ const {db,Tasks,Notes} = require('./db')
 
 const app = express()
 
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 8000;
+}
+
 db.sync().then(() => {
-    app.listen(3000)
+    app.listen(port)
 })
     .catch((err) => {
         console.error(err)
