@@ -75,7 +75,7 @@ function createTaskCard(task) {
     cardBody.appendChild(ul);
     var textarea = document.createElement("textarea");
     textarea.setAttribute("rows", "1");
-    textarea.setAttribute("cols", "90");
+    textarea.setAttribute("cols", "30");
     textarea.className = "textarea";
     textarea.id = `addNote-textbox${task.id}`;
     textarea.placeholder = "Add Note";

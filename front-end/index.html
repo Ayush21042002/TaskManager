@@ -23,8 +23,8 @@
         <form>
             <label><h1 class="form-head">Add a Task</h1></label>
             <div class="form-fields">
-                <label>Title</label><input type="text" id="title" size="50">
-                <label>Description</label><input type="text" id="description" size="100">
+                <label>Title</label><input type="text" id="title">
+                <label>Description</label><input type="text" id="description">
                 <label>Due Date</label><input type="date" id="due-date">
                 <label for="priority" id="label">Priority</label>
                 <select id="priority">
@@ -51,9 +51,13 @@
 
     <div class="container">
         <br><br><h1>Tasks</h1>
-        <ul id="task-list">
-                 
-        </ul>
+        <div class="col"></div>
+        <div class="col-10">
+            <ul id="task-list">
+            
+            </ul>
+        </div>
+        <div class="col"></div>
     </div>
 
     <div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel"
