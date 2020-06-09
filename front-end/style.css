@@ -1,61 +1,83 @@
-body{
-    background-color: #aab1bd;
+body {
+    background-color: blanchedalmond;
 }
 
-.form-head{
+.form-head {
     margin-top: 2rem;
     margin-left: 3rem;
 }
 
-.form-fields{
+.form-fields {
     margin-top: 2rem;
     margin-left: 3rem;
 }
 
-form{
+form {
     padding: 2rem;
 }
 
-label{
+label {
     margin: 1.2rem;
 }
 
-#task-list{
+#task-list {
     border: solid black 2px;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding: 1.2rem;
+    background-color: lawngreen;
 }
 
-.sort{
+.sort {
     float: right;
     padding: 10px;
     margin: 1.2rem;
 }
 
-.sort-header{
+.sort-header {
     color: black;
     font-size: 30px;
 }
 
-
-#add{
+#add {
     margin-left: 2rem;
 }
 
-.task-header{
+.task-header {
     background-color: honeydew;
     width: fit-content;
     padding: 1.2rem;
 }
 
-ul li{
+ul li {
     padding: 1.2rem;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.notes{
-     list-style: square;
+.notes {
+    list-style: square;
+}
+
+.card-header {
+    background-color: khaki;
+    border: dotted white 3px;
+}
+
+.show {
+    background-color: lightblue;
+}
+
+.notes {
+    background-color: lightcoral;
+    border: solid rebeccapurple 3px;
+}
+
+.textarea {
+    margin-top: 1.2rem;
+    width: 100%;
+}
+
+h1 {
+    color: seagreen;
 }
