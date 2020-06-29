@@ -1,10 +1,13 @@
 # TaskManager
+  
+## https://taskandnotesmanager.herokuapp.com/  
+  
+## 1. Introduction
+      The app is a basic task and notes manager 
+## 2. Backend
+      the backend is built on nodejs and express.
+## 3. Database
+      The database is built using sqlite3.
+## 4. Frontend
+      The front end is built using basic html,css and javascript and the bootstrap is also used.
 
-
-This App allows you to add Tasks and notes with them and displays the tasks along with their notes you had created 
-
-you can sort the tasks according to different criteria:
-
-1. by due date
-2. by status
-3. by priority
