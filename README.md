@@ -11,3 +11,5 @@
 ## 4. Frontend
       The front end is built using basic html,css and javascript and the bootstrap is also used.
 
+## 5. Sorting
+      The user can sort the tasks according to the fields available in sort option.
